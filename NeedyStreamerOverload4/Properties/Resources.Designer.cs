@@ -61,12 +61,12 @@ namespace NeedyStreamerOverload.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Bitmap icon {
+        internal static System.Drawing.Icon Icon {
             get {
-                object obj = ResourceManager.GetObject("icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("Icon", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
@@ -85,6 +85,16 @@ namespace NeedyStreamerOverload.Properties {
         internal static System.IO.UnmanagedMemoryStream mousedrag {
             get {
                 return ResourceManager.GetStream("mousedrag", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sprite {
+            get {
+                object obj = ResourceManager.GetObject("sprite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }
